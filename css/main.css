@@ -1,3 +1,7 @@
+header {
+  background: #ddd;
+}
+
 header a {
   text-decoration: none;
 }
@@ -14,6 +18,10 @@ header a {
   padding: 0;
 }
 
+nav {
+  background: #ccc;
+}
+
 nav ul {
   text-align: center;
   list-style: none;
@@ -23,6 +31,38 @@ nav ul {
 
 nav li {
   display: inline;
-  padding: 5px 10px;
+  padding: 10px 10px;
   margin: 0;
+}
+
+#container {
+  width: 90%;
+  margin:0 auto;
+  padding: 0;
+}
+
+#gallery {
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  max-width: 45%;
+  margin: 10px 2.5%;
+  padding: 0;
+  background: #ddd;
+}
+
+#gallery img {
+  max-width: 100%;
+}
+
+#gallery p {
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  color: #aaa;
 }
